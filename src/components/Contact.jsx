@@ -1,3 +1,7 @@
+import whatsappLogo from "../assets/whatsapp.png";
+import linkedinLogo from "../assets/linkedin.png";
+import githubLogo from "../assets/github.png";
+
 function Contact() {
     const mensagem =
     'Olá, Risonaldo! Vi seu portfólio e gostaria de conversar sobre um projeto.'
@@ -34,7 +38,13 @@ function Contact() {
             rel="noopener noreferrer"
             className="contact-card"
             >
-          <span className="contact-icon">📱</span>
+          <span className="contact-icon">
+            <img
+              src={whatsappLogo}
+              alt="WhatsApp"
+              className="contact-logo"
+            />
+          </span>
 
           <div>
             <strong>WhatsApp</strong>
@@ -57,11 +67,17 @@ function Contact() {
           rel="noopener noreferrer"
           className="contact-card"
         >
-          <span className="contact-icon">💼</span>
+          <span className="contact-icon">
+            <img
+              src={linkedinLogo}
+              alt="LinkedIn"
+              className="contact-logo"
+            />
+          </span>
 
           <div>
             <strong>LinkedIn</strong>
-            <p>linkedin.com/in/risonaldo-buarque-56b3b0207</p>
+            <p>Risonaldo Buarque</p>
           </div>
         </a>
 
@@ -71,11 +87,17 @@ function Contact() {
           rel="noopener noreferrer"
           className="contact-card"
         >
-          <span className="contact-icon">💻</span>
+          <span className="contact-icon">
+            <img
+              src={githubLogo}
+              alt="GitHub"
+              className="contact-logo"
+            />
+          </span>
 
           <div>
             <strong>GitHub</strong>
-            <p>github.com/RisonaldoBuarque</p>
+            <p>RisonaldoBuarque</p>
           </div>
         </a>
       </div>
