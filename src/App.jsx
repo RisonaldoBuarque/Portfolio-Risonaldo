@@ -11,9 +11,9 @@ import './App.css'
 function App() {
   return (
     <>
-     <CursorGlow />
+     {/* <CursorGlow /> */}
      <ScrollReveal />
-     <BackgroundParallax />
+     {/* <BackgroundParallax /> */}
 
       <Header />
 
@@ -49,11 +49,15 @@ function App() {
           <div className="profile-glow"></div>
 
           <div className="profile-frame">
-            <img
-              src={perfilImg}
-              alt="Foto de Risonaldo Buarque"
-              className="profile-image"
-            />
+           <img
+                src={perfilImg}
+                alt="Foto de Risonaldo Buarque"
+                className="profile-image"
+                width="450"
+                height="550"
+                decoding="async"
+                fetchPriority="high"
+              />
           </div>
 
           <div className="floating-badge badge-react">
