@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 #root {
   min-height: 100vh;
 }
@@ -7,15 +12,16 @@
 ========================= */
 
 .header {
-  position: relative;
-  top: auto;
-  z-index: 100;
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
 
   width: fit-content;
   min-width: 520px;
   max-width: calc(100% - 40px);
 
-  margin: 12px auto 0;
   padding: 15px 28px;
 
   display: flex;
