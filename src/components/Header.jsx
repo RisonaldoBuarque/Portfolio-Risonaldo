@@ -72,6 +72,10 @@ function Header() {
         <a href="#contato" onClick={closeMenu}>
           Contato
         </a>
+
+        <a href="#experiencias" onClick={closeMenu}>
+              Experiências
+        </a>
       </nav>
     </header>
   )

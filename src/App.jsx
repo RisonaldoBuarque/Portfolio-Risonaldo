@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import ScrollReveal from './components/ScrollReveal'
 import CursorGlow from './components/CursorGlow'
 import BackgroundParallax from './components/BackgroundParallax'
+import ExperienceTechnologies from './components/ExperienceTechnologies'
 import './App.css'
 
 function App() {
@@ -75,8 +76,10 @@ function App() {
       </section>
 
       <About />
+      <ExperienceTechnologies />
       <Projects />
       <Contact />
+      
       
       </main>
     </>
