@@ -658,18 +658,26 @@ html {
 ========================= */
 @media (max-width: 900px) {
   .header {
-    position: sticky;
-    top: 10px;
-    z-index: 1000;
+  position: fixed;
+  top: 10px;
+  left: 14px;
+  right: auto;
+  transform: none;
+  z-index: 1000;
 
-    width: calc(100% - 24px);
-    margin: 10px auto 0;
-    padding: 14px 18px;
+  width: auto;
+  margin: 0;
+  padding: 0;
 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  border: none;
+  background: transparent;
+  backdrop-filter: none;
+  box-shadow: none;
+}
 
   .menu-toggle {
     display: flex;
