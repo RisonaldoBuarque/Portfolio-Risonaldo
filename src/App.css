@@ -1079,8 +1079,8 @@ body::after {
   .header {
     position: fixed;
     top: 12px;
-    right: 14px;
-    left: auto;
+    left: 14px;
+    right: auto;
     transform: none;
     z-index: 1000;
 
@@ -1134,7 +1134,8 @@ body::after {
   .menu {
     position: absolute;
     top: 56px;
-    right: 0;
+    left: 0;
+    right: auto;
 
     width: 200px;
     min-width: 200px;
