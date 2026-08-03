@@ -5,7 +5,6 @@ function Projects() {
       description:
         'Sistema para abertura e gerenciamento de chamados, desenvolvido com Java, Spring Boot, React e PostgreSQL.',
       technologies: ['Java', 'Spring Boot', 'React', 'PostgreSQL'],
-      status: 'Em desenvolvimento',
       github: 'https://github.com/RisonaldoBuarque/',
     },
     {
@@ -13,7 +12,6 @@ function Projects() {
       description:
         'Página moderna e responsiva para uma barbearia, com serviços, horários, localização e contato pelo WhatsApp.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      status: 'Próximo projeto',
       github: 'https://github.com/RisonaldoBuarque/',
     },
     {
@@ -21,7 +19,6 @@ function Projects() {
       description:
         'Página responsiva para uma academia, apresentando planos, modalidades, profissionais e formulário de contato.',
       technologies: ['React', 'CSS', 'JavaScript'],
-      status: 'Próximo projeto',
       github: 'https://github.com/RisonaldoBuarque/',
     },
   ]
